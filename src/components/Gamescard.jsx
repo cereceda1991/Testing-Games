@@ -21,7 +21,7 @@ const Gamescard = ({ game }) => {
                 <img
                   className="img__platform"
                   // src={require(`./../../../assets/images/${id}.svg`)}
-                  src={`/public/images/${id}.svg`}
+                  src={`/images/${id}.svg`}
                   alt={name}
                 />
               </li>
@@ -38,7 +38,7 @@ const Gamescard = ({ game }) => {
                 <li key={id} className="card__store__img">
                   <a href="#">
                     <img
-                      src={`../../public/images/${slug}.svg`}
+                      src={`/images/${slug}.svg`}
                       alt=""
                       className="img__store"
                     />
